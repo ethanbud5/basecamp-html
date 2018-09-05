@@ -1,0 +1,85 @@
+body{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header and navbar*/
+a{
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    height: 70px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h2{
+    margin:0;
+    padding:0;
+    display: inline;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+li{
+    float:right;
+}
+#header_nav{
+    padding:30px;
+}
+section > img{
+    height: 150px;
+    width:210px;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(68, 68, 68);
+    height: 75px;
+}
+.smallBox{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(134, 255, 255);
+    display: inline-block;
+}
+.bigBox{
+    height: 200px;
+    width:322px;
+    background-color: rgb(250, 167, 137);
+    display: inline-block;
+}
+.aboutText{
+    width:250px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 120px;
+}
+.align-center{
+    width: 750px;
+    height: 520px;
+    margin:auto;
+}
+.align-center > div{
+    margin:20px;
+    border-radius: 14px;
+}
+#heroBG{
+    height: 230px;
+    background-color: black;
+    margin:0
+}
+#heroBG > h1{
+    font-size: 50px;
+    color: goldenrod;
+    text-align: center;
+    padding: 90px 15px;
+    text-transform: uppercase;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
